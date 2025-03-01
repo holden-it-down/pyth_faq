@@ -18,6 +18,13 @@
 print("cool", end="123") will give you "cool123"
 
 4q. How would I replace a part of a string in python?
-string = string.replace("what you want to replace", "what you want it to be replaced with")
+4a. string = string.replace("what you want to replace", "what you want it to be replaced with")
+
+
+5q. How would I remove a prefix of a string?
+5a. new_string = string.removeprefix('whatyouwantrmeoved')
+
+6q. How would i remove a suffix of a string
+6a. new_string = string.removesuffix('whatyouwantremoved')
 
 
