@@ -4,10 +4,20 @@
 # list all the python related exercises, shortcuts, snippets of code on the following repostiroy
 
 
+--- Working with Python Strings and its methods
+
 1q. How do I capitalize a string?
 1a. string.capitalize()
 
 2q. How do I remove whitespaces from a string?
 2a. string.strip() 
 
-3q. How do 
+3q. How do I change the behavior of the print function's ending?
+3a. The print function takes 3 arguments, the first to print, sep="" set to default, and an end="\n" set to default
+
+print("cool", end="123") will give you "cool123"
+
+4q. How would I replace a part of a string in python?
+string = string.replace("what you want to replace", "what you want it to be replaced with")
+
+
